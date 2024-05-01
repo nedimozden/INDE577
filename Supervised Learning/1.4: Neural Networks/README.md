@@ -1,5 +1,5 @@
 # Neural Networks:
-This repository hosts a Jupyter notebook that explores the use of Neural Networks for predicting real estate prices and classifying breast cancer cases. The notebook is designed to provide a practical and educational look at applying neural networks in different contexts.
+This repository hosts two Jupyter notebooks: one exploring the use of Neural Networks for predicting real estate prices and classifying breast cancer cases, and the other performing sentiment analysis on the IMDB dataset using BERT. Each notebook is designed to provide a practical and educational look at applying machine learning techniques in different contexts.
 
 ## Overview
 The notebook serves as an educational tool to demonstrate:
@@ -7,6 +7,8 @@ The notebook serves as an educational tool to demonstrate:
 - The principles of Neural Networks.
 
 - Their application in both regression (Real Estate price prediction) and classification (Breast Cancer diagnosis).
+
+- The application of BERT for natural language processing tasks.
 
 ### Notebook
 Neural Networks
@@ -30,3 +32,9 @@ This notebook is divided into two sections, each focusing on a specific dataset 
 - Walks through the process of feature scaling, model creation, training, and validating performance with metrics such as accuracy, precision, recall, and F1-score.
 
 - Features loss and accuracy visualizations during training to assess model convergence.
+
+BERT for Sentiment Analysis on IMDB Dataset:
+File: bert_sentiment_analysis.ipynb
+
+Description: 
+This notebook performs sentiment analysis on the IMDB dataset using BERT. It demonstrates data preprocessing, fine-tuning BERT, and evaluation for sentiment classification.
